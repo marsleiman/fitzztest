@@ -2548,7 +2548,7 @@ output {
 }
 .form-control {
   display: block;
-  width: 100%;
+  width: 500px;
   height: 34px;
   padding: 6px 12px;
   font-size: 14px;
@@ -4383,7 +4383,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   .navbar-form .form-control {
     display: inline-block;
-    width: auto;
+    width: 500px;
     vertical-align: middle;
   }
   .navbar-form .form-control-static {
@@ -4396,10 +4396,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-form .input-group .input-group-addon,
   .navbar-form .input-group .input-group-btn,
   .navbar-form .input-group .form-control {
-    width: auto;
+    width: 500px;
   }
   .navbar-form .input-group > .form-control {
-    width: 100%;
+    width: 500px;
   }
   .navbar-form .control-label {
     margin-bottom: 0;
@@ -4435,7 +4435,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-form {
-    width: auto;
+    width: 500px;
     padding-top: 0;
     padding-bottom: 0;
     margin-right: 0;
