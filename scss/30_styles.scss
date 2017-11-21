@@ -221,6 +221,14 @@ section.catalog{
   margin-bottom: 40px;
 }
 
+p.italic{
+  font-style: italic;
+  font-weight: 800;
+  color: $title-procuct;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
 figcaption.title-product{
   width: 185px;
   text-transform: uppercase;
@@ -230,18 +238,29 @@ figcaption.title-product{
   letter-spacing: -0.1rem;
 }
 
-p,
+
 .price{
   display: block;
   color: $price;
   font-size: 15px;
   font-weight: bold;
+  margin: 5px 0;
 }
 
-strong,
+p.filter{
+  color: $black;
+  font-style: normal;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+
 .category{
   text-transform: uppercase;
   display: block;
   color: $category;
   font-size: 11px;
+}
+
+.panel-body{
+  border: none;
 }
