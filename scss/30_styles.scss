@@ -221,6 +221,20 @@ section.catalog{
   margin-bottom: 40px;
 }
 
+.marginc{
+  margin-bottom: 30px;
+}
+
+.sale{
+  text-transform: uppercase;
+  background-color: $price;
+  color: $white;
+  text-align: center;
+  width: 185px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
 p.italic{
   font-style: italic;
   font-weight: 800;
@@ -263,4 +277,107 @@ p.filter{
 
 .panel-body{
   border: none;
+}
+
+.panel-default{
+  background-color: $white;
+  border: none;
+}
+
+.orange{
+  background-color: $orange;
+  color: $black;
+  font-size: 16px;
+  width: 165px;
+}
+
+.more-orange{
+  background-image: $more-orange;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 19px;
+  width: 19px;
+}
+
+.justify{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.black{
+  background-color: $black;
+  color: $white;
+  font-size: 16px;
+  width: 165px;
+}
+
+.more-black{
+  background-image: $more-black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 19px;
+  width: 19px;
+}
+
+footer{
+  background-color: $black;
+  height: 58px;
+  margin-top: 100px;
+  padding-top: 10px;
+}
+
+.icons{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 200px;
+  align-items: center;
+}
+
+.vtex{
+  background-image: $vtex;
+  width: 78px;
+  height: 26px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fizzmod{
+  background-image: $fizzmod;
+  width: 78px;
+  height: 26px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.adidas-little{
+  background-image: $adidas-little;
+  height: 19px;
+  width: 19px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nike-little{
+  background-image: $nike-little;
+  height: 19px;
+  width: 19px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.reebook-little{
+  background-image: $reebook-little;
+  height: 19px;
+  width: 19px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jokey-little{
+  background-image: $jokey-little;
+  height: 19px;
+  width: 19px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
