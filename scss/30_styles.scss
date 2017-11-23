@@ -85,26 +85,7 @@ li{
   color: $white;
 }
 
-main{
-  background-color: $black;
-  height: 40px;
-  }
 
-.main-menu{
-  max-width: 1140px;
-}
-
-.left{
-  .main-left{
-    li.upper{
-      text-transform: uppercase;
-      color: $text-upper;
-      font-size: 15px;
-      font-weight: 700;
-      padding: 10px;
-    }
-  }
-}
 
 .rigth{
   text-align: right;
@@ -138,6 +119,7 @@ section.carrousel{
   background-image: url('/img/topper.png');
   background-repeat: no-repeat;
   margin: 0 auto;
+  margin-top: 20px;
 }
 
 .brands{
