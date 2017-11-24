@@ -225,7 +225,7 @@ p.italic{
   font-size: 11px;
 }
 
-figcaption.title-product{
+.title-product{
   width: 185px;
   text-transform: uppercase;
   font-size: 15px;
@@ -234,10 +234,26 @@ figcaption.title-product{
   letter-spacing: -0.1rem;
 }
 
+.title-product2{
+  width: 185px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  color: $title-procuct;
+  letter-spacing: -0.1rem;
+}
 
 .price{
   display: block;
   color: $price;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.green{
+  display: block;
+  color: $green;
   font-size: 15px;
   font-weight: bold;
   margin: 5px 0;
